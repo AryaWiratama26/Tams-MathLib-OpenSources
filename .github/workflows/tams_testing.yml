@@ -1,0 +1,15 @@
+name: " testing tams github action"
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - name: "cek kode"
+        uses: actions/checkout@v4
+
+      - name: "install python"
+        uses: actions/setup-python@v5
+      - run: python -m pytest .\tams_testing\test.py
