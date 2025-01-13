@@ -175,3 +175,25 @@ def fibbonaci(n: int) -> int:
         return b
     else:  
         raise TypeError("Argumen harus berupa integer")
+
+def rata(arr: list) -> int:
+
+    """
+    Fungsi untuk menghitung rata-rata
+
+    parameter : 
+    arr : list : kumpulan angka dari list
+
+    return :
+    int : berupa hasil dari perataan nilai di dalam list
+    """
+
+    if isinstance(arr, list):
+        hasil = 0
+        for i in arr:
+            hasil += i
+        
+        fix = hasil / len(arr)
+        return fix
+    else:
+        raise TypeError("Argument harus berupa list")
