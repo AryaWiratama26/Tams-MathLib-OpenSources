@@ -8,3 +8,5 @@ print(math.kali(2,3,4))
 print(math.nilai_terkecil([3,555,23,444,5]))
 print(math.nilai_terbesar([3,555,23,444,5]))
 print(math.rata([2,2,2,2]))
+
+
