@@ -32,7 +32,7 @@ bagi() untuk pembagian
 fibonacci() untuk menghitung deret fibonacci
 rata() untuk mencari nilai rata-rata
 faktorial() untuk mencari nilai faktorial
-nilai_terkecil untuk mencari nilai terkecil
-nilai_terbesar untuk mencari nilai terbesar
+nilai_terkecil() untuk mencari nilai terkecil
+nilai_terbesar() untuk mencari nilai terbesar
 
 ```
